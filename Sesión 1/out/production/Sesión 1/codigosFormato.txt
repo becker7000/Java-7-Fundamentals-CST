@@ -1,0 +1,9 @@
+
+
+	Los codigos de formato me ayudan a imprimir una salida en pantalla con un formato especifico.
+
+	%d imprime enteros (int)
+	%f imprime flotantes (float) y dobles (double)
+	%B imprime un booleano (boolean)
+	%c imprime un caracter (char)
+	%s imprime una cadena (String)
