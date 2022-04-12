@@ -2,6 +2,7 @@ public class TestStringBuilder {
 
     public static void main(String[] args) {
 
+        String tel="5512345678";
         StringBuilder texto = new StringBuilder();
 
         float peso = 55.4f;
