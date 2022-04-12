@@ -6,6 +6,7 @@ public class TestOperadorTernario {
         //Casting de double a int:
         // 1.12 -> 1    0.32 -> 0
         moneda=(int)(Math.random()*2);
+        //Duelve valores: 0 o 1
 
         MonedaTexto monText = MonedaTexto.AGUILA;
 
