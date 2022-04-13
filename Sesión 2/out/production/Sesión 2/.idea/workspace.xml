@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b530d07-b929-4374-a5f2-03f6613aa587" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestOperadorTernario.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestOperadorTernario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestUsuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sesión 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sesión 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sesión 2/TestUsuarios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sesión 2/TestUsuarios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sesión 3/CalculadoraIVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sesión 3/CalculadoraIVA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sesión 3/out/production/Sesión 3/CalculadoraIVA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sesión 3/out/production/Sesión 3/CalculadoraIVA.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,10 +38,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
-    <configuration name="TestDado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDado" />
+  <component name="RunManager" selected="Application.TestUsuarios">
+    <configuration name="TestFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestFactorial" />
+      <module name="Sesión 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestFor" />
+      <module name="Sesión 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTablasMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestTablasMulti" />
+      <module name="Sesión 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUsuarios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestUsuarios" />
+      <module name="Sesión 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestWhile" />
       <module name="Sesión 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -45,7 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDado" />
+        <item itemvalue="Application.TestUsuarios" />
+        <item itemvalue="Application.TestFactorial" />
+        <item itemvalue="Application.TestFor" />
+        <item itemvalue="Application.TestTablasMulti" />
+        <item itemvalue="Application.TestWhile" />
       </list>
     </recent_temporary>
   </component>

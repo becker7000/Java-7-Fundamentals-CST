@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Sesión 2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sesión_2_jar</output-path>
+    <root id="archive" name="Sesión 2.jar">
+      <element id="module-output" name="Sesión 2" />
+    </root>
+  </artifact>
+</component>

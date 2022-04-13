@@ -5,6 +5,14 @@ public class TestUsuarios {
 
     public static void main(String[] args) {
 
+        try{
+            ProcessBuilder pb = new ProcessBuilder("cmd","/c","cls");
+            Process startProcess = pb.inheritIO().start();
+            startProcess.waitFor();
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+
         Scanner entrada = new Scanner(System.in);
         ArrayList<Usuario> usuarios = new ArrayList<>();
 
@@ -20,9 +28,15 @@ public class TestUsuarios {
             System.out.print("\n\t 3) Modificar usuario"); //Agregar centinela para cuando no existe el usuario
             System.out.print("\n\t 4) Eliminar usuario"); //También se puede usar una centinela
             System.out.print("\n\t 5) Salir");
-            System.out.print("\n\t Opción: ");
 
-            opcion= entrada.nextInt(); entrada.nextLine(); //Se puede filtrar
+            System.out.print("\n\t Opción: ");
+            try{
+                opcion= entrada.nextInt(); entrada.nextLine(); //Se puede filtrar
+            }catch (Exception ex){
+                System.out.println("Opcion no reconocida! "+ex.getMessage());
+                break;
+            }
+
 
             switch (opcion){
                 case 1:
@@ -99,4 +113,10 @@ public class TestUsuarios {
 /*
 *  API: Aplication programming interface
 *  CRUD : CREATE-READ-UPDATE-DELETE
+* */
+
+
+/*
+*  Los archivos .JAR son archivos ejecutables que nos ayudan a distribuir nuestro codigo.
+*  jar (java archive)
 * */
