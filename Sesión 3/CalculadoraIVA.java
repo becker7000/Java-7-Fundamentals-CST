@@ -6,12 +6,9 @@ public class CalculadoraIVA {
         Scanner entrada  = new Scanner(System.in);
         int montoSinIva;
 
-        try {
-            System.out.println("Escribe un monto sin I.V.A. ");
-            montoSinIva= entrada.nextInt(); entrada.nextLine();
-        }catch (Exception ex){
-            System.out.println("Error, el dato debe ser un numero, no una cadena. "+ex.getMessage());
-        }
+        System.out.println("Escribe un monto sin I.V.A. ");
+        montoSinIva= entrada.nextInt(); entrada.nextLine();
+
 
         var montoConIva = montoSinIva*0.16+montoSinIva;
 
